@@ -10,7 +10,7 @@ basic.forever(function () {
             # . . . .
             `)
         pins.digitalWritePin(DigitalPin.P1, 1)
-    } else if (valor < 300) {
+    } else if (valor >= 300 && valor < 400) {
         basic.showLeds(`
             . . . . .
             . . . . .
